@@ -5,16 +5,43 @@
 }
 #h1div{
     margin-top: 40px;
-    margin-left: 135px;
+    margin-left: 110px;
 
 }
-.navbarg ul{
-    display: flex;
-    list-style: none;
+.navbarg {
     margin-right: 80px;
     margin-top: 47px;
     margin-left: -90px;
 }
+.navbarg ul{
+    display: flex;
+    list-style: none;
+}
 .navbarg li{
-    margin-left: 30px;
+    margin-left: 50px;
+}
+
+.Navbar_down ul{
+    list-style: none;
+    margin-left: 135px;
+}
+.Navbar_down li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.dropends{
+    margin-left: 51px;
+}
+.hl{
+    border-bottom:1px solid rgb(179, 179, 179);
+    width:1440px;
+    margin: 23.25px 0 39.75px 0;
+}
+.vl{
+    border-left:1px solid rgb(179, 179, 179);
+    height:344px;
+    margin-left: 16.25px;
+    margin-bottom: 90px;
+    margin-top: -39.75px;
 }
