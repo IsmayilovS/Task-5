@@ -45,3 +45,30 @@
     margin-bottom: 90px;
     margin-top: -39.75px;
 }
+.add_to{
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 41px;
+    border-bottom-left-radius:4px ;
+    border-bottom-right-radius:4px ;
+    position: absolute; top: 209px;
+    display: none;
+}
+.icard_1:hover .add_to{
+    display: block;
+}
+.unfill1{
+   color:rgb(191, 191, 191);
+   
+}
+.fill1{
+    color: rgb(255, 173, 51);
+    display: none;
+    gap: 5px;
+    position:absolute;
+    top:317px;
+}
+.unfill1:hover .fill1{
+    display: block;
+}
